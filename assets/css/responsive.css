@@ -1,0 +1,130 @@
+@media only screen and (max-width:1024px){
+    .banner-content {
+        margin-top: 110px;
+    }
+}
+
+
+@media only screen and (max-width:980px){
+    section.banner-area {
+        height: 50vh;      
+    }
+    
+    .nav-item {
+        border-bottom: 1px solid #fff;
+    }
+    .banner-content h2 {
+        font-size: 30px;
+    }
+    .pb-100{
+        padding-bottom:80px
+    }
+    
+    .pt-100{
+        padding-top:80px
+    }  
+    
+    .section-title p {
+        max-width: 80%; 
+    }
+
+    .single-service h3 {
+        padding-top: 25px;
+        padding-bottom:0;
+    }
+    .single-progress h3 {
+        font-size: 18px;
+    }
+    .single-protfolio img{
+        max-width:90%;
+    }
+
+    .single-protfolio p {
+        font-size: 14px;
+    }
+    .client-review p {
+        width: 100%;
+    }
+    .client-photo img {
+        width: 100%;
+    }
+    .client-photo {
+        padding-right: 30px;
+    }
+
+    .contact-area form {
+        width: 100%;
+    }
+
+    .footer-area ul li {
+        margin-right: 40px;
+    }
+
+}
+@media only screen and (max-width:760px){
+    .section-title h3 {
+        font-size: 30px;  
+    }
+    .single-team {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .pb-100{
+        padding-bottom:40px
+    }
+    .pt-100{
+        padding-bottom:40px
+    }
+    .single-progress {
+        padding-bottom: 40px;
+    }
+    .single-protfolio img {
+        max-width: 100%;
+    }
+    .single-testimonial {
+        display: block;
+    }
+    .client-photo img {
+        width:150px;
+    }
+    .single-testimonial {
+        text-align: center;
+        padding-bottom:50px;
+    }
+    .client-photo {
+        padding-right: 0;
+    }
+    .contact-area input[type="text"], 
+    .contact-area input[type="email"], 
+    .contact-area textarea {
+        font-size: 16px; 
+    }
+    input.btn-submit {   
+        font-size: 16px;
+    }
+    .single-protfolio {
+        padding: 0px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    #contact textarea {
+        height: 180px;
+    }
+    .single-protfolio img {
+        max-width: 90%;
+    }
+    .protfolio-filter button {
+        padding: 5px 15px;
+    }
+    .footer-area ul li a {
+        font-size: 18px;
+    }
+    section.banner-area {
+        height: 60vh;
+    }
+    .single-team h3 { 
+        padding-bottom: 5px;
+    }
+}
